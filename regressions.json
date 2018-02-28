@@ -1,0 +1,5008 @@
+{
+    "regressions": [
+        [
+            "coordinates.SkyCoordBenchmarks.time_icrs_to_galactic_scalar",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz/jinja2/machine-bambi/matplotlib-2.1/nomkl/numpy-1.13/os-Linux 3.10.0-693.5.2.el7.x86_64/python-3.6/ram-32701224/scipy-1.0/coordinates.SkyCoordBenchmarks.time_icrs_to_galactic_scalar.json",
+            {
+                "cpu": "Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz",
+                "machine": "bambi",
+                "numpy": "1.13",
+                "os": "Linux 3.10.0-693.5.2.el7.x86_64",
+                "ram": "32701224"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        15228,
+                        0.007229115690000001,
+                        0.012260101840000003
+                    ]
+                ],
+                0.012260101840000003,
+                0.007229115690000001
+            ]
+        ],
+        [
+            "io_ascii.table.TableSuite.time_table_outputter",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.table.TableSuite.time_table_outputter.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        17569,
+                        0.0008190385760000001,
+                        0.0009842769772272738
+                    ],
+                    [
+                        null,
+                        17801,
+                        0.0009842769772272738,
+                        0.0010402257710000003
+                    ],
+                    [
+                        null,
+                        18905,
+                        0.0010402257710000003,
+                        0.0010912068130000004
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.0010912068130000004,
+                        0.0012970338150000002
+                    ],
+                    [
+                        null,
+                        21382,
+                        0.0012970338150000002,
+                        0.0013445986730185188
+                    ],
+                    [
+                        null,
+                        23212,
+                        0.0013445986730185188,
+                        0.0014060485209999997
+                    ]
+                ],
+                0.0014025823525641032,
+                0.000783349345
+            ]
+        ],
+        [
+            "table.TimeMaskedTable.time_init_from_np_array_no_copy",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeMaskedTable.time_init_from_np_array_no_copy.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        17569,
+                        0.000352881083,
+                        0.0004944654176097567
+                    ],
+                    [
+                        null,
+                        18905,
+                        0.0005085693560000002,
+                        0.0005854101389999995
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.0005854101389999995,
+                        0.0009114249265000003
+                    ],
+                    [
+                        null,
+                        21382,
+                        0.0009114249265000003,
+                        0.000977877737
+                    ],
+                    [
+                        null,
+                        27415,
+                        0.0009580867110000004,
+                        0.000995255889
+                    ]
+                ],
+                0.0009796302318181799,
+                0.0003428670440000001
+            ]
+        ],
+        [
+            "table.TimeMaskedTable.time_column_set_row_subset",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz/jinja2/machine-bambi/matplotlib-2.1/nomkl/numpy-1.13/os-Linux 3.10.0-693.5.2.el7.x86_64/python-3.6/ram-32701224/scipy-1.0/table.TimeMaskedTable.time_column_set_row_subset.json",
+            {
+                "cpu": "Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz",
+                "machine": "bambi",
+                "numpy": "1.13",
+                "os": "Linux 3.10.0-693.5.2.el7.x86_64",
+                "ram": "32701224"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        18905,
+                        2.1177205600000005e-05,
+                        2.6205912e-05
+                    ],
+                    [
+                        23792,
+                        28293,
+                        2.6205912e-05,
+                        3.49159015e-05
+                    ]
+                ],
+                3.49159015e-05,
+                2.1177205600000005e-05
+            ]
+        ],
+        [
+            "table.TimeMaskedTable.time_column_slice_bool",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz/jinja2/machine-bambi/matplotlib-2.1/nomkl/numpy-1.13/os-Linux 3.10.0-693.5.2.el7.x86_64/python-3.6/ram-32701224/scipy-1.0/table.TimeMaskedTable.time_column_slice_bool.json",
+            {
+                "cpu": "Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz",
+                "machine": "bambi",
+                "numpy": "1.13",
+                "os": "Linux 3.10.0-693.5.2.el7.x86_64",
+                "ram": "32701224"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        14031,
+                        0.00010485415899999997,
+                        0.00013134108565
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.000135675592,
+                        0.00014779771289999996
+                    ],
+                    [
+                        null,
+                        21395,
+                        0.00014779771289999996,
+                        0.0001537999206
+                    ]
+                ],
+                0.0001537999206,
+                0.00010485415899999997
+            ]
+        ],
+        [
+            "table.TimeTable.time_init_from_np_array_no_copy",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeTable.time_init_from_np_array_no_copy.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        17569,
+                        0.0003532240460000002,
+                        0.0004934148420000004
+                    ],
+                    [
+                        null,
+                        18905,
+                        0.0005086039739999998,
+                        0.0005856871729999997
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.0005856871729999997,
+                        0.0009121472100000001
+                    ],
+                    [
+                        null,
+                        21382,
+                        0.0009121472100000001,
+                        0.0009754777015
+                    ],
+                    [
+                        null,
+                        27415,
+                        0.0009566414710000002,
+                        0.0009953526389999995
+                    ]
+                ],
+                0.000977981388636364,
+                0.000342856313
+            ]
+        ],
+        [
+            "io_ascii.main.CommentedHeaderFloat.time_write",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.main.CommentedHeaderFloat.time_write.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        20597,
+                        0.3740017900000001,
+                        0.41082023150000024
+                    ]
+                ],
+                0.41082023150000024,
+                0.36529820049999984
+            ]
+        ],
+        [
+            "table.TimeMaskedTable.time_group",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeMaskedTable.time_group.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.14",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        17569,
+                        0.010634589000000005,
+                        0.01180340166666665
+                    ],
+                    [
+                        null,
+                        18905,
+                        0.01180340166666665,
+                        0.012556828875000037
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.01210259391666665,
+                        0.012773225375000002
+                    ]
+                ],
+                0.01313906256249997,
+                0.010634589000000005
+            ]
+        ],
+        [
+            "table.TimeTable.time_column_slice_bool",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz/jinja2/machine-bambi/matplotlib-2.1/nomkl/numpy-1.13/os-Linux 3.10.0-693.5.2.el7.x86_64/python-3.6/ram-32701224/scipy-1.0/table.TimeTable.time_column_slice_bool.json",
+            {
+                "cpu": "Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz",
+                "machine": "bambi",
+                "numpy": "1.13",
+                "os": "Linux 3.10.0-693.5.2.el7.x86_64",
+                "ram": "32701224"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        20504,
+                        1.531468088e-05,
+                        2.3014508950000007e-05
+                    ],
+                    [
+                        null,
+                        21382,
+                        2.3014508950000007e-05,
+                        2.48269342e-05
+                    ]
+                ],
+                2.48269342e-05,
+                1.531468088e-05
+            ]
+        ],
+        [
+            "table.TimeMaskedTable.time_aggregate",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeMaskedTable.time_aggregate.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.14",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        13754,
+                        0.1372675339999998,
+                        0.15050313750000033
+                    ],
+                    [
+                        null,
+                        14031,
+                        0.15050313750000033,
+                        0.161923158
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.16017800849999997,
+                        0.19035689649999976
+                    ],
+                    [
+                        null,
+                        21298,
+                        0.19035689649999976,
+                        0.19919113950000011
+                    ]
+                ],
+                0.19685413399999996,
+                0.1372675339999998
+            ]
+        ],
+        [
+            "table.TimeMaskedTable.time_multi_column_get",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeMaskedTable.time_multi_column_get.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        17569,
+                        0.001118552325,
+                        0.001256233836
+                    ],
+                    [
+                        null,
+                        17870,
+                        0.001256233836,
+                        0.0016552796240000003
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.0013148130999999998,
+                        0.0013951601415
+                    ],
+                    [
+                        null,
+                        22776,
+                        0.0014204519320000007,
+                        0.0014901181829999998
+                    ]
+                ],
+                0.001536111479538465,
+                0.001118552325
+            ]
+        ],
+        [
+            "io_ascii.main.CommentedHeaderInt.time_read",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.main.CommentedHeaderInt.time_read.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        17569,
+                        0.05016088999999999,
+                        0.05173769610000001
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.05204951680000001,
+                        0.053624571950000005
+                    ]
+                ],
+                0.054541904800000006,
+                0.05016088999999999
+            ]
+        ],
+        [
+            "io_ascii.core.CoreSuite.time_default_splitter_join",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.core.CoreSuite.time_default_splitter_join.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        20597,
+                        0.0007903541119999997,
+                        0.0009036738320000004
+                    ]
+                ],
+                0.0009180656454545456,
+                0.0007745580140000001
+            ]
+        ],
+        [
+            "io_ascii.table.TableSuite.time_table_init_from_list",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.table.TableSuite.time_table_init_from_list.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        17569,
+                        0.0004957203120000002,
+                        0.0006442822470000001
+                    ],
+                    [
+                        null,
+                        18905,
+                        0.0006596279950000001,
+                        0.0006985988969999997
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.0006985988969999997,
+                        0.0009078552659999998
+                    ],
+                    [
+                        null,
+                        21382,
+                        0.0009078552659999998,
+                        0.0009497093170000002
+                    ],
+                    [
+                        null,
+                        23212,
+                        0.0009497093170000002,
+                        0.0010033453520000002
+                    ],
+                    [
+                        null,
+                        27421,
+                        0.0009848042879999999,
+                        0.0010119223282815534
+                    ]
+                ],
+                0.0009961532295287194,
+                0.0004957203120000002
+            ]
+        ],
+        [
+            "io_ascii.main.NoHeaderInt.time_write",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.main.NoHeaderInt.time_write.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.14",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        20391,
+                        0.13485751149999992,
+                        0.14529989
+                    ],
+                    [
+                        null,
+                        20597,
+                        0.14529989,
+                        0.1761255382500001
+                    ]
+                ],
+                0.1761255382500001,
+                0.13485751149999992
+            ]
+        ],
+        [
+            "io_ascii.main.LatexString.time_read",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz/jinja2/machine-bambi/matplotlib-2.1/nomkl/numpy-1.13/os-Linux 3.10.0-693.5.2.el7.x86_64/python-3.6/ram-32701224/scipy-1.0/io_ascii.main.LatexString.time_read.json",
+            {
+                "cpu": "Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz",
+                "machine": "bambi",
+                "numpy": "1.13",
+                "os": "Linux 3.10.0-693.5.2.el7.x86_64",
+                "ram": "32701224"
+            },
+            null,
+            [
+                [
+                    [
+                        22503,
+                        23792,
+                        0.17029010720000004,
+                        0.2012509440000001
+                    ]
+                ],
+                0.2012509440000001,
+                0.17029010720000004
+            ]
+        ],
+        [
+            "table.TimeTable.time_sort",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeTable.time_sort.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        17569,
+                        0.0012929145349999996,
+                        0.0014115679550000002
+                    ],
+                    [
+                        null,
+                        18905,
+                        0.0014115679550000002,
+                        0.0023492926900000022
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.0023492926900000022,
+                        0.002735364654999999
+                    ],
+                    [
+                        null,
+                        21382,
+                        0.002735364654999999,
+                        0.002836283119999998
+                    ],
+                    [
+                        null,
+                        23212,
+                        0.002836283119999998,
+                        0.0029036536700000016
+                    ],
+                    [
+                        null,
+                        24672,
+                        0.0029335150700000013,
+                        0.003913993419999999
+                    ]
+                ],
+                0.0038473602962963037,
+                0.0012929145349999996
+            ]
+        ],
+        [
+            "units.time_quantity_view",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/units.time_quantity_view.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.14",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        17801,
+                        2.3432174249591458e-06,
+                        2.9124442912995067e-06
+                    ],
+                    [
+                        null,
+                        22372,
+                        2.9124442912995067e-06,
+                        4.174324411677719e-06
+                    ],
+                    [
+                        null,
+                        25805,
+                        4.174324411677719e-06,
+                        4.363274915924832e-06
+                    ],
+                    [
+                        null,
+                        28595,
+                        4.363274915924832e-06,
+                        4.589502819237423e-06
+                    ]
+                ],
+                4.589502819237423e-06,
+                2.3432174249591458e-06
+            ]
+        ],
+        [
+            "units.time_simple_unit_parse",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz/jinja2/machine-bambi/matplotlib-2.1/nomkl/numpy-1.13/os-Linux 3.10.0-693.5.2.el7.x86_64/python-3.6/ram-32701224/scipy-1.0/units.time_simple_unit_parse.json",
+            {
+                "cpu": "Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz",
+                "machine": "bambi",
+                "numpy": "1.13",
+                "os": "Linux 3.10.0-693.5.2.el7.x86_64",
+                "ram": "32701224"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        17403,
+                        5.9097719700000015e-05,
+                        6.233162765e-05
+                    ]
+                ],
+                6.233162765e-05,
+                5.9097719700000015e-05
+            ]
+        ],
+        [
+            "io_ascii.main.RdbInt.time_write",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.main.RdbInt.time_write.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.14",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        20377,
+                        0.13486744399999973,
+                        0.1485126440000002
+                    ]
+                ],
+                0.1485126440000002,
+                0.13486744399999973
+            ]
+        ],
+        [
+            "io_ascii.main.FixedWidthFloat.time_write",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.main.FixedWidthFloat.time_write.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        14711,
+                        1.34263531,
+                        2.372439193
+                    ],
+                    [
+                        null,
+                        22839,
+                        1.5806475450000002,
+                        1.7705971879999995
+                    ],
+                    [
+                        null,
+                        25085,
+                        1.7705971879999995,
+                        1.9667269619999999
+                    ],
+                    [
+                        null,
+                        26702,
+                        1.9667269619999999,
+                        2.080369308
+                    ],
+                    [
+                        null,
+                        28662,
+                        2.080369308,
+                        2.2076701355
+                    ]
+                ],
+                2.2076701355,
+                1.34263531
+            ]
+        ],
+        [
+            "io_ascii.rdb.RDBSuite.time_get_cols",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz/jinja2/machine-bambi/matplotlib-2.1/nomkl/numpy-1.13/os-Linux 3.10.0-693.5.2.el7.x86_64/python-3.6/ram-32701224/scipy-1.0/io_ascii.rdb.RDBSuite.time_get_cols.json",
+            {
+                "cpu": "Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz",
+                "machine": "bambi",
+                "numpy": "1.13",
+                "os": "Linux 3.10.0-693.5.2.el7.x86_64",
+                "ram": "32701224"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        15973,
+                        5.0575815299999994e-05,
+                        5.3648391149999996e-05
+                    ]
+                ],
+                5.3648391149999996e-05,
+                5.0575815299999994e-05
+            ]
+        ],
+        [
+            "coordinates.SkyCoordBenchmarks.time_init_scalar",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz/jinja2/machine-bambi/matplotlib-2.1/nomkl/numpy-1.13/os-Linux 3.10.0-693.5.2.el7.x86_64/python-3.6/ram-32701224/scipy-1.0/coordinates.SkyCoordBenchmarks.time_init_scalar.json",
+            {
+                "cpu": "Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz",
+                "machine": "bambi",
+                "numpy": "1.13",
+                "os": "Linux 3.10.0-693.5.2.el7.x86_64",
+                "ram": "32701224"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        12173,
+                        0.0004525369360000001,
+                        0.0018045831580000002
+                    ]
+                ],
+                0.0008287249720000003,
+                0.0004525369360000001
+            ]
+        ],
+        [
+            "io_ascii.main.NoHeaderFloat.time_write",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.main.NoHeaderFloat.time_write.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        20597,
+                        0.375337821,
+                        0.4107918450000001
+                    ]
+                ],
+                0.4107918450000001,
+                0.3652690155
+            ]
+        ],
+        [
+            "io_ascii.main.AastexFloat.time_write",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.main.AastexFloat.time_write.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        14711,
+                        1.226677768,
+                        2.2537041710000003
+                    ],
+                    [
+                        null,
+                        22839,
+                        1.465629098,
+                        1.6499969379999992
+                    ],
+                    [
+                        null,
+                        25085,
+                        1.6499969379999992,
+                        1.8576046564999995
+                    ],
+                    [
+                        null,
+                        26702,
+                        1.8576046564999995,
+                        1.9673241770000005
+                    ],
+                    [
+                        null,
+                        28662,
+                        1.9673241770000005,
+                        2.084436811
+                    ]
+                ],
+                2.084436811,
+                1.226677768
+            ]
+        ],
+        [
+            "io_ascii.main.BasicString.time_write",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.main.BasicString.time_write.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        20597,
+                        0.21318450799999988,
+                        0.24249354150000002
+                    ]
+                ],
+                0.24249354150000002,
+                0.20304726524999983
+            ]
+        ],
+        [
+            "io_ascii.main.AastexString.time_write",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.main.AastexString.time_write.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        14711,
+                        0.8085825260000004,
+                        1.6852792085000003
+                    ],
+                    [
+                        null,
+                        22839,
+                        1.051118207,
+                        1.192928342
+                    ],
+                    [
+                        null,
+                        25085,
+                        1.192928342,
+                        1.4664789580000006
+                    ],
+                    [
+                        null,
+                        26702,
+                        1.4664789580000006,
+                        1.5826389685
+                    ]
+                ],
+                1.5826389685,
+                0.8085825260000004
+            ]
+        ],
+        [
+            "table.TimeMaskedTable.time_sort",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz/jinja2/machine-bambi/matplotlib-2.1/nomkl/numpy-1.13/os-Linux 3.10.0-693.5.2.el7.x86_64/python-3.6/ram-32701224/scipy-1.0/table.TimeMaskedTable.time_sort.json",
+            {
+                "cpu": "Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz",
+                "machine": "bambi",
+                "numpy": "1.13",
+                "os": "Linux 3.10.0-693.5.2.el7.x86_64",
+                "ram": "32701224"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        14278,
+                        0.0016940619004999998,
+                        0.0019293245810000003
+                    ],
+                    [
+                        null,
+                        18905,
+                        0.0019924029700000008,
+                        0.0025256777399999997
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.0025256777399999997,
+                        0.0026638861300000006
+                    ],
+                    [
+                        null,
+                        21382,
+                        0.0026638861300000006,
+                        0.0027108106949999995
+                    ],
+                    [
+                        23792,
+                        28293,
+                        0.0027108106949999995,
+                        0.0032867045600000005
+                    ]
+                ],
+                0.0032867045600000005,
+                0.0016940619004999998
+            ]
+        ],
+        [
+            "io_ascii.main.AastexInt.time_write",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.main.AastexInt.time_write.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.14",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        14711,
+                        1.0518307360000003,
+                        1.8958250564999997
+                    ],
+                    [
+                        null,
+                        22839,
+                        1.332736405,
+                        1.4834550979999994
+                    ],
+                    [
+                        null,
+                        25085,
+                        1.4834550979999994,
+                        1.6112495079999996
+                    ],
+                    [
+                        null,
+                        26702,
+                        1.6112495079999996,
+                        1.7286379789999997
+                    ]
+                ],
+                1.7051593559999998,
+                1.0518307360000003
+            ]
+        ],
+        [
+            "io_ascii.main.LatexInt.time_write",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.main.LatexInt.time_write.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.14",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        14711,
+                        1.0464187080000005,
+                        1.8981148085
+                    ],
+                    [
+                        null,
+                        22839,
+                        1.3310145359999996,
+                        1.4761848409999998
+                    ],
+                    [
+                        null,
+                        25085,
+                        1.4761848409999998,
+                        1.6110152114999998
+                    ],
+                    [
+                        null,
+                        26702,
+                        1.6110152114999998,
+                        1.714580293
+                    ]
+                ],
+                1.6970937730000006,
+                1.0464187080000005
+            ]
+        ],
+        [
+            "table.TimeMaskedTable.time_table_slice_int",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeMaskedTable.time_table_slice_int.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        14278,
+                        0.002105765545,
+                        0.00223122405
+                    ],
+                    [
+                        null,
+                        17569,
+                        0.002321688529999999,
+                        0.00268220535
+                    ],
+                    [
+                        null,
+                        18905,
+                        0.0025903687500000005,
+                        0.0028199798599999994
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.0028199798599999994,
+                        0.0030590623299999995
+                    ],
+                    [
+                        null,
+                        21298,
+                        0.0030590623299999995,
+                        0.0031366390300000013
+                    ]
+                ],
+                0.0031899273505882346,
+                0.002105765545
+            ]
+        ],
+        [
+            "io_ascii.main.TabString.time_read",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz/jinja2/machine-bambi/matplotlib-2.1/nomkl/numpy-1.13/os-Linux 3.10.0-693.5.2.el7.x86_64/python-3.6/ram-32701224/scipy-1.0/io_ascii.main.TabString.time_read.json",
+            {
+                "cpu": "Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz",
+                "machine": "bambi",
+                "numpy": "1.13",
+                "os": "Linux 3.10.0-693.5.2.el7.x86_64",
+                "ram": "32701224"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        16288,
+                        0.03723137800000001,
+                        0.0395503874
+                    ]
+                ],
+                0.0391666925,
+                0.03723137800000001
+            ]
+        ],
+        [
+            "table.TimeMaskedTable.time_row_get",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeMaskedTable.time_row_get.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.14",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        15996,
+                        3.3891091481730764e-06,
+                        1.4098618889597937e-05
+                    ]
+                ],
+                1.4098618889597937e-05,
+                3.3891091481730764e-06
+            ]
+        ],
+        [
+            "io_ascii.table.TableSuite.mem_table_outputter",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.table.TableSuite.mem_table_outputter.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        11220,
+                        2792.0,
+                        3000.0
+                    ],
+                    [
+                        null,
+                        17569,
+                        3072.0,
+                        4920.0
+                    ],
+                    [
+                        null,
+                        26133,
+                        4784.0,
+                        5024.0
+                    ],
+                    [
+                        null,
+                        27415,
+                        4784.0,
+                        5504.0
+                    ]
+                ],
+                5504.0,
+                2792.0
+            ]
+        ],
+        [
+            "io_ascii.main.BasicInt.time_write",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.main.BasicInt.time_write.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        20391,
+                        0.13476728280000003,
+                        0.14229082020000003
+                    ],
+                    [
+                        null,
+                        20597,
+                        0.14229082020000003,
+                        0.17280405179999997
+                    ]
+                ],
+                0.1742054317,
+                0.132295138
+            ]
+        ],
+        [
+            "table.TimeTable.time_column_set_all",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeTable.time_column_set_all.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.14",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        18905,
+                        8.687124740716976e-06,
+                        2.2610368231757954e-05
+                    ],
+                    [
+                        null,
+                        23956,
+                        2.2610368231757954e-05,
+                        2.387133701922165e-05
+                    ]
+                ],
+                2.390333644185797e-05,
+                8.687124740716976e-06
+            ]
+        ],
+        [
+            "io_ascii.main.FixedWidthNoHeaderString.time_write",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.main.FixedWidthNoHeaderString.time_write.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        14711,
+                        0.9105934359999996,
+                        1.7959254694999998
+                    ],
+                    [
+                        null,
+                        22839,
+                        1.1580578419999998,
+                        1.297935045
+                    ],
+                    [
+                        null,
+                        25085,
+                        1.297935045,
+                        1.587015723
+                    ],
+                    [
+                        null,
+                        26702,
+                        1.587015723,
+                        1.6981416354999999
+                    ]
+                ],
+                1.6981416354999999,
+                0.9105934359999996
+            ]
+        ],
+        [
+            "table.TimeMaskedTable.time_hstack",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeMaskedTable.time_hstack.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        15798,
+                        0.0050974120175000005,
+                        0.008806980201666665
+                    ],
+                    [
+                        null,
+                        17569,
+                        0.008806980201666665,
+                        0.010192808099999999
+                    ],
+                    [
+                        null,
+                        17870,
+                        0.010192808099999999,
+                        0.012307337450000002
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.010349226909999999,
+                        0.011157480729999999
+                    ],
+                    [
+                        null,
+                        21382,
+                        0.011157480729999999,
+                        0.011455922819999997
+                    ],
+                    [
+                        null,
+                        26133,
+                        0.011256863079999997,
+                        0.01177628456
+                    ]
+                ],
+                0.011372890729999998,
+                0.0050974120175000005
+            ]
+        ],
+        [
+            "io_ascii.main.AastexString.time_read",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz/jinja2/machine-bambi/matplotlib-2.1/nomkl/numpy-1.13/os-Linux 3.10.0-693.5.2.el7.x86_64/python-3.6/ram-32701224/scipy-1.0/io_ascii.main.AastexString.time_read.json",
+            {
+                "cpu": "Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz",
+                "machine": "bambi",
+                "numpy": "1.13",
+                "os": "Linux 3.10.0-693.5.2.el7.x86_64",
+                "ram": "32701224"
+            },
+            null,
+            [
+                [
+                    [
+                        22503,
+                        23792,
+                        0.17060420335000007,
+                        0.2022971210000002
+                    ]
+                ],
+                0.2022971210000002,
+                0.17060420335000007
+            ]
+        ],
+        [
+            "table.TimeTable.time_aggregate",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeTable.time_aggregate.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        17569,
+                        0.0018618406800000003,
+                        0.0025179685449999998
+                    ],
+                    [
+                        null,
+                        18905,
+                        0.002303331800000001,
+                        0.0024190008200000034
+                    ],
+                    [
+                        null,
+                        19200,
+                        0.0024190008200000034,
+                        0.0026603085599999996
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.0026603085599999996,
+                        0.003428020595344832
+                    ],
+                    [
+                        null,
+                        21382,
+                        0.003428020595344832,
+                        0.0036254936300000006
+                    ],
+                    [
+                        null,
+                        27401,
+                        0.0036532651399999996,
+                        0.0037431793500000013
+                    ]
+                ],
+                0.0037431793500000013,
+                0.0017885562005000005
+            ]
+        ],
+        [
+            "table.TimeTable.time_copy_table",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeTable.time_copy_table.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.14",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        17569,
+                        0.0009913261111111123,
+                        0.0012535429387733141
+                    ],
+                    [
+                        null,
+                        17870,
+                        0.0012535429387733141,
+                        0.0013552132000000023
+                    ],
+                    [
+                        null,
+                        18905,
+                        0.0013552132000000023,
+                        0.0014427477567567604
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.00132135862875,
+                        0.0016741927118340172
+                    ],
+                    [
+                        null,
+                        21382,
+                        0.0016741927118340172,
+                        0.0017469466450951857
+                    ],
+                    [
+                        null,
+                        23212,
+                        0.0017469466450951857,
+                        0.0018434653793103438
+                    ]
+                ],
+                0.0018398749849503201,
+                0.0009913261111111123
+            ]
+        ],
+        [
+            "table.TimeMaskedTable.time_join_inner",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeMaskedTable.time_join_inner.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        14842,
+                        0.010681321929999998,
+                        0.019188821999999998
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.012922294295000001,
+                        0.013789354815000002
+                    ]
+                ],
+                0.014172405620000003,
+                0.010681321929999998
+            ]
+        ],
+        [
+            "io_ascii.main.CsvInt.time_read",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.main.CsvInt.time_read.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        17569,
+                        0.04518078079999999,
+                        0.046737623900000004
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.04705980730000001,
+                        0.04867762125000001
+                    ]
+                ],
+                0.04951055299999998,
+                0.04518078079999999
+            ]
+        ],
+        [
+            "table.TimeMaskedTable.time_aggregate_noreduceat",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeMaskedTable.time_aggregate_noreduceat.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        13754,
+                        0.1333936661,
+                        0.14582246135000002
+                    ],
+                    [
+                        null,
+                        14031,
+                        0.14582246135000002,
+                        0.16129524174999998
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.1569986516,
+                        0.18744294095000003
+                    ],
+                    [
+                        null,
+                        21382,
+                        0.18744294095000003,
+                        0.19495930125
+                    ]
+                ],
+                0.19495930125,
+                0.1333936661
+            ]
+        ],
+        [
+            "table.TimeTable.time_row_get",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeTable.time_row_get.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.14",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        15996,
+                        3.3948181947626132e-06,
+                        1.4008641810825887e-05
+                    ]
+                ],
+                1.3877630149788283e-05,
+                3.3948181947626132e-06
+            ]
+        ],
+        [
+            "io_ascii.main.LatexFloat.time_read",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz/jinja2/machine-bambi/matplotlib-2.1/nomkl/numpy-1.13/os-Linux 3.10.0-693.5.2.el7.x86_64/python-3.6/ram-32701224/scipy-1.0/io_ascii.main.LatexFloat.time_read.json",
+            {
+                "cpu": "Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz",
+                "machine": "bambi",
+                "numpy": "1.13",
+                "os": "Linux 3.10.0-693.5.2.el7.x86_64",
+                "ram": "32701224"
+            },
+            null,
+            [
+                [
+                    [
+                        22503,
+                        23792,
+                        0.18096677010000004,
+                        0.23282468099999987
+                    ]
+                ],
+                0.23282468099999987,
+                0.17699282094999996
+            ]
+        ],
+        [
+            "io_ascii.main.CommentedHeaderString.time_read",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz/jinja2/machine-bambi/matplotlib-2.1/nomkl/numpy-1.13/os-Linux 3.10.0-693.5.2.el7.x86_64/python-3.6/ram-32701224/scipy-1.0/io_ascii.main.CommentedHeaderString.time_read.json",
+            {
+                "cpu": "Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz",
+                "machine": "bambi",
+                "numpy": "1.13",
+                "os": "Linux 3.10.0-693.5.2.el7.x86_64",
+                "ram": "32701224"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        16288,
+                        0.039552532200000004,
+                        0.04204892320000002
+                    ]
+                ],
+                0.04115692485,
+                0.039552532200000004
+            ]
+        ],
+        [
+            "table.TimeMaskedTable.time_vstack",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz/jinja2/machine-bambi/matplotlib-2.1/nomkl/numpy-1.13/os-Linux 3.10.0-693.5.2.el7.x86_64/python-3.6/ram-32701224/scipy-1.0/table.TimeMaskedTable.time_vstack.json",
+            {
+                "cpu": "Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz",
+                "machine": "bambi",
+                "numpy": "1.13",
+                "os": "Linux 3.10.0-693.5.2.el7.x86_64",
+                "ram": "32701224"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        15798,
+                        0.001370301121,
+                        0.005831679645
+                    ],
+                    [
+                        null,
+                        17569,
+                        0.0057801227350000005,
+                        0.005978323669999999
+                    ],
+                    [
+                        null,
+                        17870,
+                        0.005854413925000001,
+                        0.006198088610000001
+                    ],
+                    [
+                        null,
+                        18905,
+                        0.006198088610000001,
+                        0.00632699382
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.0059779154199999995,
+                        0.006081555940000003
+                    ],
+                    [
+                        23792,
+                        28293,
+                        0.006120023919999999,
+                        0.008354287205000002
+                    ]
+                ],
+                0.008354287205000002,
+                0.001370301121
+            ]
+        ],
+        [
+            "io_ascii.main.FixedWidthNoHeaderInt.time_write",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.main.FixedWidthNoHeaderInt.time_write.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.14",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        14711,
+                        1.153206281,
+                        1.9966214184999995
+                    ],
+                    [
+                        null,
+                        22839,
+                        1.4271172749999999,
+                        1.5792213329999996
+                    ],
+                    [
+                        null,
+                        25085,
+                        1.5792213329999996,
+                        1.7055358760000001
+                    ],
+                    [
+                        null,
+                        26702,
+                        1.7055358760000001,
+                        1.8177108450000001
+                    ]
+                ],
+                1.7971070319999995,
+                1.153206281
+            ]
+        ],
+        [
+            "table.TimeMaskedTable.time_init_from_np_array_copy",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeMaskedTable.time_init_from_np_array_copy.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        15798,
+                        0.0006770617290000001,
+                        0.000724404939
+                    ],
+                    [
+                        null,
+                        17569,
+                        0.000724404939,
+                        0.0009702491499999999
+                    ],
+                    [
+                        null,
+                        17801,
+                        0.0009702491499999999,
+                        0.0010753134005
+                    ],
+                    [
+                        null,
+                        17870,
+                        0.0010753134005,
+                        0.0012120551319999998
+                    ],
+                    [
+                        null,
+                        18905,
+                        0.0012120551319999998,
+                        0.0013126639669999998
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.0011683555749999997,
+                        0.0015069817195000005
+                    ],
+                    [
+                        null,
+                        21382,
+                        0.0015069817195000005,
+                        0.001577726674
+                    ],
+                    [
+                        null,
+                        23212,
+                        0.001577726674,
+                        0.0016694532795
+                    ],
+                    [
+                        null,
+                        27415,
+                        0.0016503059680000002,
+                        0.00169440222
+                    ]
+                ],
+                0.0016745058166666678,
+                0.0006770617290000001
+            ]
+        ],
+        [
+            "io_ascii.main.FixedWidthString.time_write",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.main.FixedWidthString.time_write.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        14711,
+                        0.9126981350000003,
+                        1.7954374414999998
+                    ],
+                    [
+                        null,
+                        22839,
+                        1.1593180059999995,
+                        1.3009508420000007
+                    ],
+                    [
+                        null,
+                        25085,
+                        1.3009508420000007,
+                        1.5887425535
+                    ],
+                    [
+                        null,
+                        26702,
+                        1.5887425535,
+                        1.700989347
+                    ]
+                ],
+                1.700989347,
+                0.9126981350000003
+            ]
+        ],
+        [
+            "table.TimeTable.time_aggregate_noreduceat",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz/jinja2/machine-bambi/matplotlib-2.1/nomkl/numpy-1.13/os-Linux 3.10.0-693.5.2.el7.x86_64/python-3.6/ram-32701224/scipy-1.0/table.TimeTable.time_aggregate_noreduceat.json",
+            {
+                "cpu": "Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz",
+                "machine": "bambi",
+                "numpy": "1.13",
+                "os": "Linux 3.10.0-693.5.2.el7.x86_64",
+                "ram": "32701224"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        13754,
+                        0.00438069861,
+                        0.006745349389999999
+                    ],
+                    [
+                        null,
+                        14711,
+                        0.00638225334,
+                        0.006799310109999999
+                    ],
+                    [
+                        null,
+                        18796,
+                        0.006799310109999999,
+                        0.007044812700000001
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.007044812700000001,
+                        0.010432635005
+                    ],
+                    [
+                        null,
+                        21382,
+                        0.010432635005,
+                        0.011282632365
+                    ]
+                ],
+                0.011282632365,
+                0.00438069861
+            ]
+        ],
+        [
+            "table.TimeTable.time_copy_column",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeTable.time_copy_column.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.14",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        14278,
+                        0.00011728706549794026,
+                        0.00012631911733109786
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.00012923889736842105,
+                        0.0002000736534926472
+                    ],
+                    [
+                        null,
+                        21298,
+                        0.0002000736534926472,
+                        0.00021593819071146208
+                    ]
+                ],
+                0.00021073923906310686,
+                0.00011728706549794026
+            ]
+        ],
+        [
+            "io_ascii.main.FixedWidthTwoLineInt.time_write",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.main.FixedWidthTwoLineInt.time_write.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.14",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        14711,
+                        1.1486458709999998,
+                        1.984176425
+                    ],
+                    [
+                        null,
+                        22839,
+                        1.421170932,
+                        1.57128266
+                    ],
+                    [
+                        null,
+                        25085,
+                        1.57128266,
+                        1.6986547695
+                    ],
+                    [
+                        null,
+                        26702,
+                        1.6986547695,
+                        1.815878778
+                    ]
+                ],
+                1.7903184099999994,
+                1.1486458709999998
+            ]
+        ],
+        [
+            "io_ascii.main.IpacFloat.time_write",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.main.IpacFloat.time_write.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        14711,
+                        1.3418900679999997,
+                        2.3832204040000002
+                    ],
+                    [
+                        null,
+                        22839,
+                        1.5989897009999998,
+                        1.7909728230000002
+                    ],
+                    [
+                        null,
+                        25085,
+                        1.7909728230000002,
+                        1.9904886735
+                    ],
+                    [
+                        null,
+                        26702,
+                        1.9904886735,
+                        2.1165827189999997
+                    ],
+                    [
+                        null,
+                        28662,
+                        2.1165827189999997,
+                        2.2261587124999997
+                    ]
+                ],
+                2.2261587124999997,
+                1.3418900679999997
+            ]
+        ],
+        [
+            "io_ascii.sextractor.SExtractorSuite.time_header",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.sextractor.SExtractorSuite.time_header.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        11074,
+                        0.7071263840000004,
+                        1.0620284700000004
+                    ],
+                    [
+                        null,
+                        21575,
+                        1.0906005430000008,
+                        1.3623993950000006
+                    ]
+                ],
+                1.3461582090000004,
+                0.7071263840000004
+            ]
+        ],
+        [
+            "io_ascii.main.RdbInt.time_read",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.main.RdbInt.time_read.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.14",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        17569,
+                        0.04973501449999995,
+                        0.0514654745
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.0514654745,
+                        0.053394731500000014
+                    ]
+                ],
+                0.054205341625000014,
+                0.04973501449999995
+            ]
+        ],
+        [
+            "io_ascii.main.TabInt.time_read",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.main.TabInt.time_read.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.14",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        17569,
+                        0.04467436233333336,
+                        0.04652794283333335
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.04652794283333335,
+                        0.04849761249999999
+                    ]
+                ],
+                0.04896750866666666,
+                0.04467436233333336
+            ]
+        ],
+        [
+            "io_ascii.main.CsvInt.time_write",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.main.CsvInt.time_write.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.14",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        20391,
+                        0.1356892664999998,
+                        0.1492841359999999
+                    ]
+                ],
+                0.1492841359999999,
+                0.1356892664999998
+            ]
+        ],
+        [
+            "table.TimeTable.time_init_from_np_array_copy",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeTable.time_init_from_np_array_copy.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        15798,
+                        0.0006758725590000001,
+                        0.0007223503429999998
+                    ],
+                    [
+                        null,
+                        17569,
+                        0.0007223503429999998,
+                        0.0009668347800000003
+                    ],
+                    [
+                        null,
+                        17801,
+                        0.0009668347800000003,
+                        0.0010730669570000002
+                    ],
+                    [
+                        null,
+                        17870,
+                        0.0010730669570000002,
+                        0.001213606714
+                    ],
+                    [
+                        null,
+                        18905,
+                        0.001213606714,
+                        0.0013068330489999997
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.0011670187860000002,
+                        0.001506519748
+                    ],
+                    [
+                        null,
+                        21382,
+                        0.001506519748,
+                        0.00157521889
+                    ],
+                    [
+                        null,
+                        23212,
+                        0.00157521889,
+                        0.0016662488179999997
+                    ],
+                    [
+                        null,
+                        27415,
+                        0.0016463996889999998,
+                        0.0016889764720000003
+                    ]
+                ],
+                0.001669275957031249,
+                0.0006758725590000001
+            ]
+        ],
+        [
+            "io_ascii.main.RdbString.time_read",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz/jinja2/machine-bambi/matplotlib-2.1/nomkl/numpy-1.13/os-Linux 3.10.0-693.5.2.el7.x86_64/python-3.6/ram-32701224/scipy-1.0/io_ascii.main.RdbString.time_read.json",
+            {
+                "cpu": "Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz",
+                "machine": "bambi",
+                "numpy": "1.13",
+                "os": "Linux 3.10.0-693.5.2.el7.x86_64",
+                "ram": "32701224"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        16288,
+                        0.03935258015,
+                        0.04185237499999998
+                    ]
+                ],
+                0.041014297499999984,
+                0.03935258015
+            ]
+        ],
+        [
+            "table.TimeTable.time_add_row",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeTable.time_add_row.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.14",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        15798,
+                        0.0008296099999998141,
+                        0.0014597320000000469
+                    ],
+                    [
+                        null,
+                        17569,
+                        0.0014597320000000469,
+                        0.0016191439999999613
+                    ],
+                    [
+                        null,
+                        18905,
+                        0.0016191439999999613,
+                        0.0018129540000000333
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.0018129540000000333,
+                        0.0023428709999999686
+                    ],
+                    [
+                        null,
+                        21258,
+                        0.0023428709999999686,
+                        0.0024862630000002106
+                    ]
+                ],
+                0.002447268000000058,
+                0.0008296099999998141
+            ]
+        ],
+        [
+            "io_ascii.main.FixedWidthTwoLineFloat.time_write",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.main.FixedWidthTwoLineFloat.time_write.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        14711,
+                        1.3276255409999997,
+                        2.366330413
+                    ],
+                    [
+                        null,
+                        22839,
+                        1.5739733190000003,
+                        1.7611209680000002
+                    ],
+                    [
+                        null,
+                        25085,
+                        1.7611209680000002,
+                        1.9636302424999998
+                    ],
+                    [
+                        null,
+                        26702,
+                        1.9636302424999998,
+                        2.0793988719999996
+                    ],
+                    [
+                        null,
+                        28662,
+                        2.0793988719999996,
+                        2.1982305044999997
+                    ]
+                ],
+                2.1982305044999997,
+                1.3276255409999997
+            ]
+        ],
+        [
+            "table.TimeMaskedTable.time_copy_column",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz/jinja2/machine-bambi/matplotlib-2.1/nomkl/numpy-1.13/os-Linux 3.10.0-693.5.2.el7.x86_64/python-3.6/ram-32701224/scipy-1.0/table.TimeMaskedTable.time_copy_column.json",
+            {
+                "cpu": "Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz",
+                "machine": "bambi",
+                "numpy": "1.13",
+                "os": "Linux 3.10.0-693.5.2.el7.x86_64",
+                "ram": "32701224"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        20504,
+                        0.00015554263819999998,
+                        0.0001694498212
+                    ]
+                ],
+                0.00017525298609999998,
+                0.00015554263819999998
+            ]
+        ],
+        [
+            "table.TimeTable.time_join_outer",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz/jinja2/machine-bambi/matplotlib-2.1/nomkl/numpy-1.13/os-Linux 3.10.0-693.5.2.el7.x86_64/python-3.6/ram-32701224/scipy-1.0/table.TimeTable.time_join_outer.json",
+            {
+                "cpu": "Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz",
+                "machine": "bambi",
+                "numpy": "1.13",
+                "os": "Linux 3.10.0-693.5.2.el7.x86_64",
+                "ram": "32701224"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        14842,
+                        0.002215219365,
+                        0.00605802793
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.004889200550000002,
+                        0.005157643429999999
+                    ]
+                ],
+                0.005226334669999999,
+                0.002215219365
+            ]
+        ],
+        [
+            "io_ascii.main.BasicString.time_read",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz/jinja2/machine-bambi/matplotlib-2.1/nomkl/numpy-1.13/os-Linux 3.10.0-693.5.2.el7.x86_64/python-3.6/ram-32701224/scipy-1.0/io_ascii.main.BasicString.time_read.json",
+            {
+                "cpu": "Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz",
+                "machine": "bambi",
+                "numpy": "1.13",
+                "os": "Linux 3.10.0-693.5.2.el7.x86_64",
+                "ram": "32701224"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        16288,
+                        0.0374227638,
+                        0.03982958304999999
+                    ]
+                ],
+                0.03926057940000001,
+                0.0374227638
+            ]
+        ],
+        [
+            "table.TimeMaskedTable.time_mask_column",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeMaskedTable.time_mask_column.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        20504,
+                        2.284694785000001e-05,
+                        2.4900241299999993e-05
+                    ]
+                ],
+                2.4859580800000003e-05,
+                2.284694785000001e-05
+            ]
+        ],
+        [
+            "io_ascii.main.NoHeaderString.time_read",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz/jinja2/machine-bambi/matplotlib-2.1/nomkl/numpy-1.13/os-Linux 3.10.0-693.5.2.el7.x86_64/python-3.6/ram-32701224/scipy-1.0/io_ascii.main.NoHeaderString.time_read.json",
+            {
+                "cpu": "Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz",
+                "machine": "bambi",
+                "numpy": "1.13",
+                "os": "Linux 3.10.0-693.5.2.el7.x86_64",
+                "ram": "32701224"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        16288,
+                        0.03741033650000001,
+                        0.039745266550000005
+                    ]
+                ],
+                0.0392222978,
+                0.03741033650000001
+            ]
+        ],
+        [
+            "io_ascii.main.IpacInt.time_write",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.main.IpacInt.time_write.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.14",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        14711,
+                        1.1560810010000004,
+                        2.0055448399999998
+                    ],
+                    [
+                        null,
+                        22839,
+                        1.4460980780000003,
+                        1.6024757839999997
+                    ],
+                    [
+                        null,
+                        25085,
+                        1.6024757839999997,
+                        1.7317927825000001
+                    ],
+                    [
+                        null,
+                        26702,
+                        1.7317927825000001,
+                        1.8390968595000001
+                    ]
+                ],
+                1.8173676699999999,
+                1.1560810010000004
+            ]
+        ],
+        [
+            "units.time_quantity_times_unit",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/units.time_quantity_times_unit.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.14",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        11756,
+                        0.00030001753641456595,
+                        0.00033556954977111825
+                    ],
+                    [
+                        null,
+                        14549,
+                        0.00033556954977111825,
+                        0.0003526911302250812
+                    ],
+                    [
+                        null,
+                        22372,
+                        0.0003526911302250812,
+                        0.0003843961597206192
+                    ]
+                ],
+                0.0003756145449491026,
+                0.00030001753641456595
+            ]
+        ],
+        [
+            "io_ascii.main.NoHeaderInt.time_read",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.main.NoHeaderInt.time_read.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        17569,
+                        0.04521281055000001,
+                        0.046743576099999996
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.04706462350000003,
+                        0.04864088805
+                    ]
+                ],
+                0.04949419214999997,
+                0.04521281055000001
+            ]
+        ],
+        [
+            "io_ascii.main.FixedWidthInt.time_write",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.main.FixedWidthInt.time_write.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.14",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        14711,
+                        1.152606509,
+                        1.9991924394999998
+                    ],
+                    [
+                        null,
+                        22839,
+                        1.4280097594999999,
+                        1.586200249
+                    ],
+                    [
+                        null,
+                        25085,
+                        1.586200249,
+                        1.7124017170000003
+                    ],
+                    [
+                        null,
+                        26702,
+                        1.7124017170000003,
+                        1.8231460620000002
+                    ]
+                ],
+                1.8005388880000002,
+                1.152606509
+            ]
+        ],
+        [
+            "table.TimeTable.time_remove_row",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeTable.time_remove_row.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.14",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        17569,
+                        0.0005171430000001642,
+                        0.0006584729999998817
+                    ],
+                    [
+                        null,
+                        18905,
+                        0.0006584729999998817,
+                        0.0008545620000002252
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.0008545620000002252,
+                        0.001100720000000166
+                    ]
+                ],
+                0.0011523380000002525,
+                0.0005171430000001642
+            ]
+        ],
+        [
+            "table.TimeMaskedTable.time_remove_row",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeMaskedTable.time_remove_row.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.14",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        18905,
+                        0.002862904999999749,
+                        0.0031473009999998247
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.0031473009999998247,
+                        0.003406568999999804
+                    ],
+                    [
+                        null,
+                        26129,
+                        0.0034755119999999584,
+                        0.0036582765000000572
+                    ]
+                ],
+                0.0035922419999999677,
+                0.002862904999999749
+            ]
+        ],
+        [
+            "io_ascii.main.LatexString.time_write",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.main.LatexString.time_write.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        14711,
+                        0.8060615240000004,
+                        1.6852253354999998
+                    ],
+                    [
+                        null,
+                        22839,
+                        1.0507909240000002,
+                        1.1893735579999998
+                    ],
+                    [
+                        null,
+                        25085,
+                        1.1893735579999998,
+                        1.4746695975000006
+                    ],
+                    [
+                        null,
+                        26702,
+                        1.4746695975000006,
+                        1.5904150450000003
+                    ]
+                ],
+                1.5904150450000003,
+                0.8060615240000004
+            ]
+        ],
+        [
+            "io_ascii.main.FixedWidthTwoLineString.time_write",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.main.FixedWidthTwoLineString.time_write.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        14711,
+                        0.9078506160000002,
+                        1.7830020530000006
+                    ],
+                    [
+                        null,
+                        22839,
+                        1.1482386279999997,
+                        1.2867246839999997
+                    ],
+                    [
+                        null,
+                        25085,
+                        1.2867246839999997,
+                        1.5781083584999998
+                    ],
+                    [
+                        null,
+                        26702,
+                        1.5781083584999998,
+                        1.6883763360000001
+                    ]
+                ],
+                1.6883763360000001,
+                0.9078506160000002
+            ]
+        ],
+        [
+            "table.TimeTable.time_column_set",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz/jinja2/machine-bambi/matplotlib-2.1/nomkl/numpy-1.13/os-Linux 3.10.0-693.5.2.el7.x86_64/python-3.6/ram-32701224/scipy-1.0/table.TimeTable.time_column_set.json",
+            {
+                "cpu": "Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz",
+                "machine": "bambi",
+                "numpy": "1.13",
+                "os": "Linux 3.10.0-693.5.2.el7.x86_64",
+                "ram": "32701224"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        18905,
+                        3.214915524999999e-06,
+                        5.825907699999998e-06
+                    ],
+                    [
+                        22503,
+                        23792,
+                        5.825907699999998e-06,
+                        6.159836479999998e-05
+                    ]
+                ],
+                6.0265032650000006e-05,
+                3.214915524999999e-06
+            ]
+        ],
+        [
+            "io_ascii.main.CommentedHeaderString.time_write",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.main.CommentedHeaderString.time_write.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        20391,
+                        0.20313167499999984,
+                        0.21353966999999985
+                    ],
+                    [
+                        null,
+                        20597,
+                        0.21353966999999985,
+                        0.24176803199999997
+                    ]
+                ],
+                0.24272551399999998,
+                0.20313167499999984
+            ]
+        ],
+        [
+            "table.TimeTable.time_add_column",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeTable.time_add_column.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.14",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        17569,
+                        0.00023650050000012524,
+                        0.0004630119999999849
+                    ],
+                    [
+                        null,
+                        17870,
+                        0.0004630119999999849,
+                        0.0005600810000001566
+                    ],
+                    [
+                        18906,
+                        19032,
+                        0.0005600810000001566,
+                        0.0006299819999999734
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.0004907705000001261,
+                        0.0005770790000001469
+                    ],
+                    [
+                        null,
+                        21960,
+                        0.000606564499999962,
+                        0.000901005999999871
+                    ],
+                    [
+                        null,
+                        23212,
+                        0.0006058524999998927,
+                        0.0007042390000000509
+                    ]
+                ],
+                0.0007137569999997595,
+                0.00023650050000012524
+            ]
+        ],
+        [
+            "io_ascii.main.NoHeaderString.time_write",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.main.NoHeaderString.time_write.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        20391,
+                        0.20305992249999982,
+                        0.2133646869999999
+                    ],
+                    [
+                        null,
+                        20597,
+                        0.2133646869999999,
+                        0.242522291
+                    ]
+                ],
+                0.242522291,
+                0.20305992249999982
+            ]
+        ],
+        [
+            "io_ascii.main.BasicFloat.time_write",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.main.BasicFloat.time_write.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        20597,
+                        0.3739941339999997,
+                        0.4106816839999998
+                    ]
+                ],
+                0.4106816839999998,
+                0.36531647150000013
+            ]
+        ],
+        [
+            "table.TimeTable.time_group",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeTable.time_group.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        17569,
+                        0.0035510681000000053,
+                        0.0045925383000000024
+                    ],
+                    [
+                        null,
+                        18905,
+                        0.004390319940000001,
+                        0.004948530419999999
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.004773503079999999,
+                        0.0055656931199999995
+                    ],
+                    [
+                        null,
+                        26133,
+                        0.005892337494999999,
+                        0.006461642639999998
+                    ]
+                ],
+                0.005924964384411758,
+                0.0032790906450000023
+            ]
+        ],
+        [
+            "table.TimeMaskedTable.time_iter_row",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeMaskedTable.time_iter_row.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.14",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        15996,
+                        0.001845199241833588,
+                        0.013213427
+                    ]
+                ],
+                0.013213427,
+                0.001845199241833588
+            ]
+        ],
+        [
+            "coordinates.FrameBenchmarks.time_init_nodata",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz/jinja2/machine-bambi/matplotlib-2.1/nomkl/numpy-1.13/os-Linux 3.10.0-693.5.2.el7.x86_64/python-3.6/ram-32701224/scipy-1.0/coordinates.FrameBenchmarks.time_init_nodata.json",
+            {
+                "cpu": "Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz",
+                "machine": "bambi",
+                "numpy": "1.13",
+                "os": "Linux 3.10.0-693.5.2.el7.x86_64",
+                "ram": "32701224"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        12173,
+                        2.67529794e-06,
+                        0.0005150206070000001
+                    ]
+                ],
+                0.0001080581623,
+                2.67529794e-06
+            ]
+        ],
+        [
+            "table.TimeMaskedTable.time_column_set_row_subset_int",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz/jinja2/machine-bambi/matplotlib-2.1/nomkl/numpy-1.13/os-Linux 3.10.0-693.5.2.el7.x86_64/python-3.6/ram-32701224/scipy-1.0/table.TimeMaskedTable.time_column_set_row_subset_int.json",
+            {
+                "cpu": "Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz",
+                "machine": "bambi",
+                "numpy": "1.13",
+                "os": "Linux 3.10.0-693.5.2.el7.x86_64",
+                "ram": "32701224"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        18905,
+                        1.5766988649999996e-05,
+                        2.040166939999999e-05
+                    ],
+                    [
+                        23792,
+                        28293,
+                        2.040166939999999e-05,
+                        2.841824735000001e-05
+                    ]
+                ],
+                2.841824735000001e-05,
+                1.5766988649999996e-05
+            ]
+        ],
+        [
+            "table.TimeMaskedTable.time_add_row",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeMaskedTable.time_add_row.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.14",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        17569,
+                        0.0032980514999999544,
+                        0.0035083380000000552
+                    ],
+                    [
+                        null,
+                        18905,
+                        0.0035083380000000552,
+                        0.003800132000000289
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.003800132000000289,
+                        0.004113679000000148
+                    ]
+                ],
+                0.004184748999999988,
+                0.0032980514999999544
+            ]
+        ],
+        [
+            "table.TimeMaskedTable.time_column_set",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz/jinja2/machine-bambi/matplotlib-2.1/nomkl/numpy-1.13/os-Linux 3.10.0-693.5.2.el7.x86_64/python-3.6/ram-32701224/scipy-1.0/table.TimeMaskedTable.time_column_set.json",
+            {
+                "cpu": "Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz",
+                "machine": "bambi",
+                "numpy": "1.13",
+                "os": "Linux 3.10.0-693.5.2.el7.x86_64",
+                "ram": "32701224"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        14278,
+                        6.1470950199999984e-06,
+                        2.94100818e-05
+                    ],
+                    [
+                        null,
+                        14711,
+                        2.94100818e-05,
+                        3.105848334999999e-05
+                    ],
+                    [
+                        null,
+                        18905,
+                        2.98646305e-05,
+                        3.58088303e-05
+                    ],
+                    [
+                        22503,
+                        23792,
+                        3.58088303e-05,
+                        0.0001136837705
+                    ]
+                ],
+                0.0001136837705,
+                6.1470950199999984e-06
+            ]
+        ],
+        [
+            "units.time_unit_compose",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/units.time_unit_compose.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.14",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        10909,
+                        0.0010252999038461526,
+                        0.0011063697680412364
+                    ],
+                    [
+                        null,
+                        11756,
+                        0.0011063697680412364,
+                        0.0015770036102941175
+                    ],
+                    [
+                        null,
+                        14549,
+                        0.0014311891042792797,
+                        0.001562130242753622
+                    ],
+                    [
+                        null,
+                        17198,
+                        0.001562130242753622,
+                        0.0017802685916666681
+                    ]
+                ],
+                0.0016892336562500006,
+                0.0009799567477272722
+            ]
+        ],
+        [
+            "io_ascii.main.FixedWidthNoHeaderFloat.time_write",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.main.FixedWidthNoHeaderFloat.time_write.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        14711,
+                        1.3368857199999997,
+                        2.3733186890000004
+                    ],
+                    [
+                        null,
+                        22839,
+                        1.579542258,
+                        1.769757491
+                    ],
+                    [
+                        null,
+                        25085,
+                        1.769757491,
+                        1.9728369104999999
+                    ],
+                    [
+                        null,
+                        26702,
+                        1.9728369104999999,
+                        2.0874344695
+                    ],
+                    [
+                        null,
+                        28662,
+                        2.0874344695,
+                        2.2072400055
+                    ]
+                ],
+                2.2072400055,
+                1.3368857199999997
+            ]
+        ],
+        [
+            "units.time_quantity_scalar_conversion",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/units.time_quantity_scalar_conversion.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        9860,
+                        0.0002858106359999999,
+                        0.0003147963469999999
+                    ],
+                    [
+                        null,
+                        10188,
+                        0.0003147963469999999,
+                        0.00032924871099999995
+                    ],
+                    [
+                        null,
+                        11756,
+                        0.00034296391300000015,
+                        0.0004665140590000001
+                    ],
+                    [
+                        null,
+                        17198,
+                        0.0003308080418630573,
+                        0.0003487560059999999
+                    ]
+                ],
+                0.0003593753252171052,
+                0.0002858106359999999
+            ]
+        ],
+        [
+            "table.TimeTable.time_item_get_rowfirst",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeTable.time_item_get_rowfirst.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        14711,
+                        6.40772138e-06,
+                        1.018192447e-05
+                    ],
+                    [
+                        null,
+                        15996,
+                        1.018192447e-05,
+                        2.1680661999999983e-05
+                    ],
+                    [
+                        null,
+                        25085,
+                        1.7749397377792193e-05,
+                        1.8856268385e-05
+                    ],
+                    [
+                        null,
+                        29093,
+                        1.848880642e-05,
+                        2.0246695420690755e-05
+                    ]
+                ],
+                2.0246695420690755e-05,
+                6.40772138e-06
+            ]
+        ],
+        [
+            "io_ascii.table.TableSuite.mem_table_init",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.table.TableSuite.mem_table_init.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        11220,
+                        2792.0,
+                        3000.0
+                    ],
+                    [
+                        null,
+                        17569,
+                        3072.0,
+                        4920.0
+                    ],
+                    [
+                        null,
+                        26133,
+                        4784.0,
+                        5024.0
+                    ],
+                    [
+                        null,
+                        27415,
+                        4784.0,
+                        5504.0
+                    ]
+                ],
+                5504.0,
+                2792.0
+            ]
+        ],
+        [
+            "io_ascii.main.LatexInt.time_read",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.main.LatexInt.time_read.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        23286,
+                        0.5953682455000004,
+                        0.6948849765
+                    ]
+                ],
+                0.6948849765,
+                0.5953682455000004
+            ]
+        ],
+        [
+            "table.TimeTable.time_remove_rows",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeTable.time_remove_rows.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        14714,
+                        0.0005446600000000856,
+                        0.000577665000000005
+                    ],
+                    [
+                        null,
+                        17569,
+                        0.000577665000000005,
+                        0.0007133120000002435
+                    ],
+                    [
+                        null,
+                        18905,
+                        0.0007133120000002435,
+                        0.000927406000000186
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.000927406000000186,
+                        0.0011482749999998099
+                    ],
+                    [
+                        null,
+                        21382,
+                        0.0011482749999998099,
+                        0.0011983894999999523
+                    ],
+                    [
+                        null,
+                        27545,
+                        0.0012185269999998027,
+                        0.0012594145000001111
+                    ]
+                ],
+                0.0012594145000001111,
+                0.0005446600000000856
+            ]
+        ],
+        [
+            "table.TimeMaskedTable.time_column_set_all",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz/jinja2/machine-bambi/matplotlib-2.1/nomkl/numpy-1.13/os-Linux 3.10.0-693.5.2.el7.x86_64/python-3.6/ram-32701224/scipy-1.0/table.TimeMaskedTable.time_column_set_all.json",
+            {
+                "cpu": "Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz",
+                "machine": "bambi",
+                "numpy": "1.13",
+                "os": "Linux 3.10.0-693.5.2.el7.x86_64",
+                "ram": "32701224"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        18905,
+                        2.6983454899999982e-05,
+                        3.249139969999999e-05
+                    ],
+                    [
+                        23792,
+                        28293,
+                        3.249139969999999e-05,
+                        4.181636515000001e-05
+                    ]
+                ],
+                4.181636515000001e-05,
+                2.6983454899999982e-05
+            ]
+        ],
+        [
+            "table.TimeMaskedTable.time_column_slice_int",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz/jinja2/machine-bambi/matplotlib-2.1/nomkl/numpy-1.13/os-Linux 3.10.0-693.5.2.el7.x86_64/python-3.6/ram-32701224/scipy-1.0/table.TimeMaskedTable.time_column_slice_int.json",
+            {
+                "cpu": "Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz",
+                "machine": "bambi",
+                "numpy": "1.13",
+                "os": "Linux 3.10.0-693.5.2.el7.x86_64",
+                "ram": "32701224"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        14031,
+                        8.960074160000002e-05,
+                        0.000112073796
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.0001160906529,
+                        0.0001285092379
+                    ],
+                    [
+                        null,
+                        21382,
+                        0.0001285092379,
+                        0.00013345402549999998
+                    ]
+                ],
+                0.00013345402549999998,
+                8.960074160000002e-05
+            ]
+        ],
+        [
+            "table.TimeTable.time_column_set_row_subset_int",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeTable.time_column_set_row_subset_int.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.14",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        13869,
+                        5.1465202616383066e-06,
+                        7.848026404715123e-06
+                    ],
+                    [
+                        null,
+                        18905,
+                        7.848026404715123e-06,
+                        2.1461884196185307e-05
+                    ],
+                    [
+                        null,
+                        23950,
+                        2.1461884196185307e-05,
+                        2.2667943803357436e-05
+                    ]
+                ],
+                2.2658282706093126e-05,
+                5.1465202616383066e-06
+            ]
+        ],
+        [
+            "io_ascii.main.TabInt.time_write",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.main.TabInt.time_write.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.14",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        20391,
+                        0.13486667549999987,
+                        0.1474423680000001
+                    ]
+                ],
+                0.14878926199999976,
+                0.13486667549999987
+            ]
+        ],
+        [
+            "table.TimeMaskedTable.time_join_outer",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeMaskedTable.time_join_outer.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        14842,
+                        0.011608343320000002,
+                        0.023084724300000015
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.013904642150000002,
+                        0.01478516472
+                    ]
+                ],
+                0.015353896762857113,
+                0.011608343320000002
+            ]
+        ],
+        [
+            "table.TimeTable.time_column_set_row_subset",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeTable.time_column_set_row_subset.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.14",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        13869,
+                        1.5417588028663775e-05,
+                        1.8433073023333885e-05
+                    ],
+                    [
+                        null,
+                        14278,
+                        1.8433073023333885e-05,
+                        1.9491495988537805e-05
+                    ],
+                    [
+                        null,
+                        18905,
+                        1.9491495988537805e-05,
+                        3.369742909822325e-05
+                    ],
+                    [
+                        null,
+                        23950,
+                        3.369742909822325e-05,
+                        3.493558702787427e-05
+                    ]
+                ],
+                3.5018748952482276e-05,
+                1.5417588028663775e-05
+            ]
+        ],
+        [
+            "io_ascii.main.AastexFloat.time_read",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz/jinja2/machine-bambi/matplotlib-2.1/nomkl/numpy-1.13/os-Linux 3.10.0-693.5.2.el7.x86_64/python-3.6/ram-32701224/scipy-1.0/io_ascii.main.AastexFloat.time_read.json",
+            {
+                "cpu": "Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz",
+                "machine": "bambi",
+                "numpy": "1.13",
+                "os": "Linux 3.10.0-693.5.2.el7.x86_64",
+                "ram": "32701224"
+            },
+            null,
+            [
+                [
+                    [
+                        22503,
+                        23792,
+                        0.1809792689,
+                        0.2341135219999999
+                    ]
+                ],
+                0.2341135219999999,
+                0.17721673459999998
+            ]
+        ],
+        [
+            "io_ascii.main.AastexInt.time_read",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz/jinja2/machine-bambi/matplotlib-2.1/nomkl/numpy-1.13/os-Linux 3.10.0-693.5.2.el7.x86_64/python-3.6/ram-32701224/scipy-1.0/io_ascii.main.AastexInt.time_read.json",
+            {
+                "cpu": "Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz",
+                "machine": "bambi",
+                "numpy": "1.13",
+                "os": "Linux 3.10.0-693.5.2.el7.x86_64",
+                "ram": "32701224"
+            },
+            null,
+            [
+                [
+                    [
+                        22503,
+                        23792,
+                        0.15922507315,
+                        0.18572762230000003
+                    ]
+                ],
+                0.18572762230000003,
+                0.15462978445000003
+            ]
+        ],
+        [
+            "io_ascii.ipac.IPACSuite.time_data_str_vals",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.ipac.IPACSuite.time_data_str_vals.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        14711,
+                        0.681033851,
+                        1.5486796139999992
+                    ]
+                ],
+                1.5486796139999992,
+                0.681033851
+            ]
+        ],
+        [
+            "coordinates.SkyCoordBenchmarks.time_repr_scalar",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz/jinja2/machine-bambi/matplotlib-2.1/nomkl/numpy-1.13/os-Linux 3.10.0-693.5.2.el7.x86_64/python-3.6/ram-32701224/scipy-1.0/coordinates.SkyCoordBenchmarks.time_repr_scalar.json",
+            {
+                "cpu": "Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz",
+                "machine": "bambi",
+                "numpy": "1.13",
+                "os": "Linux 3.10.0-693.5.2.el7.x86_64",
+                "ram": "32701224"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        16159,
+                        6.310504085e-05,
+                        0.00033151715
+                    ]
+                ],
+                0.00027271949800000006,
+                6.310504085e-05
+            ]
+        ],
+        [
+            "table.TimeMaskedTable.time_item_get_rowfirst",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz/jinja2/machine-bambi/matplotlib-2.1/nomkl/numpy-1.13/os-Linux 3.10.0-693.5.2.el7.x86_64/python-3.6/ram-32701224/scipy-1.0/table.TimeMaskedTable.time_item_get_rowfirst.json",
+            {
+                "cpu": "Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz",
+                "machine": "bambi",
+                "numpy": "1.13",
+                "os": "Linux 3.10.0-693.5.2.el7.x86_64",
+                "ram": "32701224"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        15996,
+                        3.241846235e-05,
+                        3.83132438e-05
+                    ],
+                    [
+                        null,
+                        22493,
+                        3.9221197100000013e-05,
+                        4.060702490000001e-05
+                    ]
+                ],
+                4.060702490000001e-05,
+                3.241846235e-05
+            ]
+        ],
+        [
+            "table.TimeMaskedTable.time_remove_rows",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeMaskedTable.time_remove_rows.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        17569,
+                        0.00271132900000004,
+                        0.002865290999999992
+                    ],
+                    [
+                        null,
+                        18905,
+                        0.002865290999999992,
+                        0.003138249999999676
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.003138249999999676,
+                        0.0033972610000001513
+                    ],
+                    [
+                        null,
+                        21272,
+                        0.0033972610000001513,
+                        0.0034711874999998615
+                    ]
+                ],
+                0.003548807499999973,
+                0.00271132900000004
+            ]
+        ],
+        [
+            "units.time_unit_parse",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/units.time_unit_parse.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.14",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        9860,
+                        0.0008222924849624054,
+                        0.0009040964772727285
+                    ],
+                    [
+                        null,
+                        10909,
+                        0.0009040964772727285,
+                        0.0009625190954545453
+                    ],
+                    [
+                        null,
+                        17198,
+                        0.0009441638454545446,
+                        0.0009980809683281411
+                    ]
+                ],
+                0.0009755507863636356,
+                0.0008222924849624054
+            ]
+        ],
+        [
+            "io_ascii.main.CommentedHeaderInt.time_write",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.main.CommentedHeaderInt.time_write.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.14",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        20391,
+                        0.1350042800000002,
+                        0.145111773
+                    ],
+                    [
+                        null,
+                        20597,
+                        0.145111773,
+                        0.17616054049999985
+                    ]
+                ],
+                0.17616054049999985,
+                0.1350042800000002
+            ]
+        ],
+        [
+            "io_ascii.main.LatexFloat.time_write",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.main.LatexFloat.time_write.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        14711,
+                        1.2220366460000003,
+                        2.2509631100000007
+                    ],
+                    [
+                        null,
+                        22839,
+                        1.4644500790000001,
+                        1.6523313889999995
+                    ],
+                    [
+                        null,
+                        25085,
+                        1.6523313889999995,
+                        1.8528038919999998
+                    ],
+                    [
+                        null,
+                        26702,
+                        1.8528038919999998,
+                        1.9632233654999998
+                    ],
+                    [
+                        null,
+                        28662,
+                        1.9632233654999998,
+                        2.0835474665000002
+                    ]
+                ],
+                2.0835474665000002,
+                1.2220366460000003
+            ]
+        ],
+        [
+            "table.TimeMaskedTable.time_copy_table",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz/jinja2/machine-bambi/matplotlib-2.1/nomkl/numpy-1.13/os-Linux 3.10.0-693.5.2.el7.x86_64/python-3.6/ram-32701224/scipy-1.0/table.TimeMaskedTable.time_copy_table.json",
+            {
+                "cpu": "Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz",
+                "machine": "bambi",
+                "numpy": "1.13",
+                "os": "Linux 3.10.0-693.5.2.el7.x86_64",
+                "ram": "32701224"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        17569,
+                        0.0006708066205,
+                        0.0007279804540000002
+                    ],
+                    [
+                        null,
+                        17870,
+                        0.0007279804540000002,
+                        0.0008590139940000001
+                    ],
+                    [
+                        null,
+                        18905,
+                        0.0008590139940000001,
+                        0.0008940958180000002
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.0007694332295000001,
+                        0.0008295369669999999
+                    ]
+                ],
+                0.0008759445175,
+                0.0006708066205
+            ]
+        ],
+        [
+            "table.TimeTable.time_iter_row",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeTable.time_iter_row.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        15996,
+                        0.0018217412524999998,
+                        0.01306172769
+                    ]
+                ],
+                0.012961477735,
+                0.0018217412524999998
+            ]
+        ],
+        [
+            "io_ascii.main.BasicInt.time_read",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.main.BasicInt.time_read.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        17569,
+                        0.04518426930000001,
+                        0.04674492631666668
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.04706594094999998,
+                        0.04900729675
+                    ]
+                ],
+                0.049492593,
+                0.04518426930000001
+            ]
+        ],
+        [
+            "table.TimeMaskedTable.time_add_column",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeMaskedTable.time_add_column.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.14",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        17569,
+                        0.0010623315000000133,
+                        0.0012872714999998536
+                    ],
+                    [
+                        null,
+                        17870,
+                        0.0012872714999998536,
+                        0.0017051754999999336
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.0013396475000002628,
+                        0.001404296000000027
+                    ],
+                    [
+                        null,
+                        23210,
+                        0.001404296000000027,
+                        0.0014910415000001231
+                    ],
+                    [
+                        null,
+                        26133,
+                        0.0015429800000001936,
+                        0.0017306459999999468
+                    ]
+                ],
+                0.001618869999999939,
+                0.0010623315000000133
+            ]
+        ],
+        [
+            "table.TimeTable.time_column_slice_int",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeTable.time_column_slice_int.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        18905,
+                        5.654696129999999e-05,
+                        5.9392522000000005e-05
+                    ],
+                    [
+                        null,
+                        20504,
+                        5.9392522000000005e-05,
+                        9.30284613e-05
+                    ],
+                    [
+                        null,
+                        21382,
+                        9.30284613e-05,
+                        0.00010158148550000004
+                    ]
+                ],
+                9.926572145454551e-05,
+                5.654696129999999e-05
+            ]
+        ],
+        [
+            "table.TimeMaskedTable.time_read_rows",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz/jinja2/machine-bambi/matplotlib-2.1/nomkl/numpy-1.13/os-Linux 3.10.0-693.5.2.el7.x86_64/python-3.6/ram-32701224/scipy-1.0/table.TimeMaskedTable.time_read_rows.json",
+            {
+                "cpu": "Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz",
+                "machine": "bambi",
+                "numpy": "1.13",
+                "os": "Linux 3.10.0-693.5.2.el7.x86_64",
+                "ram": "32701224"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        14278,
+                        0.07463401670000001,
+                        0.24690163400000004
+                    ],
+                    [
+                        null,
+                        15996,
+                        0.1818576344,
+                        0.18791359245
+                    ],
+                    [
+                        null,
+                        18905,
+                        0.18791359245,
+                        0.19195894694999993
+                    ],
+                    [
+                        null,
+                        22493,
+                        0.19195894694999993,
+                        0.19816948899999998
+                    ]
+                ],
+                0.19816948899999998,
+                0.07463401670000001
+            ]
+        ],
+        [
+            "table.TimeMaskedTable.time_table_slice_bool",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeMaskedTable.time_table_slice_bool.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        14278,
+                        0.0022767866500000003,
+                        0.002533635940000001
+                    ],
+                    [
+                        null,
+                        17569,
+                        0.0026221021799999987,
+                        0.002988183850000001
+                    ],
+                    [
+                        null,
+                        18905,
+                        0.002928171805000002,
+                        0.003167097860000001
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.003167097860000001,
+                        0.003404995467741935
+                    ],
+                    [
+                        null,
+                        21447,
+                        0.003404995467741935,
+                        0.0034841536650000006
+                    ]
+                ],
+                0.0035341124300000003,
+                0.0022767866500000003
+            ]
+        ],
+        [
+            "io_ascii.main.IpacString.time_write",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.main.IpacString.time_write.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        14711,
+                        0.9253246740000001,
+                        1.8073185275
+                    ],
+                    [
+                        null,
+                        22839,
+                        1.1845291350000005,
+                        1.327099739
+                    ],
+                    [
+                        null,
+                        25085,
+                        1.327099739,
+                        1.6089163835000002
+                    ],
+                    [
+                        null,
+                        26702,
+                        1.6089163835000002,
+                        1.7267498704999997
+                    ]
+                ],
+                1.7002285499999996,
+                0.9253246740000001
+            ]
+        ],
+        [
+            "table.TimeTable.time_vstack",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeTable.time_vstack.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        24672,
+                        0.0036319773,
+                        0.00792659021307693
+                    ]
+                ],
+                0.00792659021307693,
+                0.0036319773
+            ]
+        ],
+        [
+            "coordinates.FrameBenchmarks.time_init_scalar",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz/jinja2/machine-bambi/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 3.10.0-693.5.2.el7.x86_64/python-3.6/ram-32701224/scipy-1.0/coordinates.FrameBenchmarks.time_init_scalar.json",
+            {
+                "cpu": "Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz",
+                "machine": "bambi",
+                "numpy": "1.11",
+                "os": "Linux 3.10.0-693.5.2.el7.x86_64",
+                "ram": "32701224"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        26140,
+                        0.0003128628634999999,
+                        0.0006030827720000003
+                    ]
+                ],
+                0.0005910675210000002,
+                0.0003128628634999999
+            ]
+        ],
+        [
+            "coordinates.FrameBenchmarks.time_init_array",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz/jinja2/machine-bambi/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 3.10.0-693.5.2.el7.x86_64/python-3.6/ram-32701224/scipy-1.0/coordinates.FrameBenchmarks.time_init_array.json",
+            {
+                "cpu": "Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz",
+                "machine": "bambi",
+                "numpy": "1.11",
+                "os": "Linux 3.10.0-693.5.2.el7.x86_64",
+                "ram": "32701224"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        26140,
+                        0.0003740139345,
+                        0.0006669640769999999
+                    ]
+                ],
+                0.0006536520489999999,
+                0.0003740139345
+            ]
+        ],
+        [
+            "coordinates.SkyCoordBenchmarks.time_init_array",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz/jinja2/machine-bambi/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 3.10.0-693.5.2.el7.x86_64/python-3.6/ram-32701224/scipy-1.0/coordinates.SkyCoordBenchmarks.time_init_array.json",
+            {
+                "cpu": "Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz",
+                "machine": "bambi",
+                "numpy": "1.14",
+                "os": "Linux 3.10.0-693.5.2.el7.x86_64",
+                "ram": "32701224"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        26140,
+                        0.009713452510000003,
+                        0.010416212090000005
+                    ]
+                ],
+                0.010067892039999995,
+                0.009713452510000003
+            ]
+        ],
+        [
+            "io_ascii.ipac.IPACSuite.time_splitter",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz/jinja2/machine-bambi/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 3.10.0-693.5.2.el7.x86_64/python-3.6/ram-32701224/scipy-1.0/io_ascii.ipac.IPACSuite.time_splitter.json",
+            {
+                "cpu": "Intel(R) Xeon(R) CPU E5-1660 v4 @ 3.20GHz",
+                "machine": "bambi",
+                "numpy": "1.14",
+                "os": "Linux 3.10.0-693.5.2.el7.x86_64",
+                "ram": "32701224"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        28662,
+                        0.0003340229440000001,
+                        0.00035773895
+                    ]
+                ],
+                0.00035773895,
+                0.0003340229440000001
+            ]
+        ],
+        [
+            "table.TimeTable.time_table_slice_bool",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeTable.time_table_slice_bool.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.14",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        15797,
+                        0.0004659227320675114,
+                        0.0004994092184684687
+                    ],
+                    [
+                        null,
+                        17569,
+                        0.0004994092184684687,
+                        0.000837416593939393
+                    ],
+                    [
+                        null,
+                        18905,
+                        0.0007302398053691284,
+                        0.0009296713954545454
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.0009296713954545454,
+                        0.0011327366806669363
+                    ],
+                    [
+                        null,
+                        21382,
+                        0.0011327366806669363,
+                        0.001177626347826086
+                    ],
+                    [
+                        null,
+                        27396,
+                        0.0011606724838709678,
+                        0.0011965575361111104
+                    ]
+                ],
+                0.0011965575361111104,
+                0.0004466180368852459
+            ]
+        ],
+        [
+            "units.time_quantity_init_scalar",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/units.time_quantity_init_scalar.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.14",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        22372,
+                        0.00012100682359426667,
+                        0.00013217638721804503
+                    ]
+                ],
+                0.00012586380289017338,
+                0.00012100682359426667
+            ]
+        ],
+        [
+            "table.TimeTable.time_multi_column_get",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeTable.time_multi_column_get.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.14",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        17569,
+                        0.0005718094055886238,
+                        0.0007082705306618174
+                    ],
+                    [
+                        null,
+                        17870,
+                        0.0007082705306618174,
+                        0.0008145880615384614
+                    ],
+                    [
+                        null,
+                        18905,
+                        0.0008145880615384614,
+                        0.0008550316349206345
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.0007405778285807484,
+                        0.0008822014664467526
+                    ],
+                    [
+                        null,
+                        21382,
+                        0.0008822014664467526,
+                        0.0009214338999999985
+                    ],
+                    [
+                        null,
+                        23210,
+                        0.0009214338999999985,
+                        0.0009657116409090899
+                    ]
+                ],
+                0.0009629979590909091,
+                0.0005718094055886238
+            ]
+        ],
+        [
+            "io_fits.FITSBinTableHDU.time_from_columns_bytes",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_fits.FITSBinTableHDU.time_from_columns_bytes.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        28841,
+                        2.1958295989999996,
+                        2.4163903589999998
+                    ]
+                ],
+                2.4163903589999998,
+                2.1958295989999996
+            ]
+        ],
+        [
+            "units.time_quantity_creation_nocopy",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/units.time_quantity_creation_nocopy.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.14",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        10187,
+                        9.663399318181811e-06,
+                        1.0649288042817533e-05
+                    ],
+                    [
+                        null,
+                        10894,
+                        1.0649288042817533e-05,
+                        1.3126932657417679e-05
+                    ],
+                    [
+                        null,
+                        11743,
+                        1.3126932657417679e-05,
+                        1.4764639922818148e-05
+                    ],
+                    [
+                        null,
+                        12873,
+                        1.4764639922818148e-05,
+                        1.5376551725987715e-05
+                    ]
+                ],
+                1.5559078855039934e-05,
+                9.663399318181811e-06
+            ]
+        ],
+        [
+            "table.TimeTable.time_table_slice_int",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeTable.time_table_slice_int.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        14711,
+                        0.00035698332900000016,
+                        0.00037558920399999996
+                    ],
+                    [
+                        null,
+                        15797,
+                        0.00037558920399999996,
+                        0.00040757179799999976
+                    ],
+                    [
+                        null,
+                        17569,
+                        0.00040757179799999976,
+                        0.0007419629831486488
+                    ],
+                    [
+                        null,
+                        18905,
+                        0.0006186587599999998,
+                        0.0008139310190000004
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.0008139310190000004,
+                        0.001015989024
+                    ],
+                    [
+                        null,
+                        21382,
+                        0.001015989024,
+                        0.0010522669744999998
+                    ],
+                    [
+                        null,
+                        27415,
+                        0.0010427597769999996,
+                        0.0010848681955000002
+                    ]
+                ],
+                0.0010585100049019629,
+                0.00035698332900000016
+            ]
+        ],
+        [
+            "io_ascii.main.RdbString.time_write",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.main.RdbString.time_write.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        20394,
+                        0.20307184699999992,
+                        0.21667457150000002
+                    ]
+                ],
+                0.21667457150000002,
+                0.20307184699999992
+            ]
+        ],
+        [
+            "units.time_compose_to_bases",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/units.time_compose_to_bases.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        9860,
+                        0.0042427997500000016,
+                        0.0050474370250000004
+                    ],
+                    [
+                        null,
+                        10194,
+                        0.0050474370250000004,
+                        0.005402876169999998
+                    ],
+                    [
+                        null,
+                        10733,
+                        0.005402876169999998,
+                        0.005817348830000002
+                    ],
+                    [
+                        null,
+                        10909,
+                        0.005817348830000002,
+                        0.006472692239999999
+                    ],
+                    [
+                        null,
+                        11756,
+                        0.006472692239999999,
+                        0.010055810544999998
+                    ],
+                    [
+                        null,
+                        14368,
+                        0.009566750083181818,
+                        0.010005574942272735
+                    ]
+                ],
+                0.010096438689999996,
+                0.0042427997500000016
+            ]
+        ],
+        [
+            "visualization.wcsaxes.time_basic_plot_with_grid_and_overlay",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/visualization.wcsaxes.time_basic_plot_with_grid_and_overlay.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        26140,
+                        1.6203256505000003,
+                        2.5660721879999997
+                    ]
+                ],
+                2.0527792289999995,
+                1.6203256505000003
+            ]
+        ],
+        [
+            "table.TimeTable.time_join_inner",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeTable.time_join_inner.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        17569,
+                        0.004287691885,
+                        0.005495834830000002
+                    ],
+                    [
+                        null,
+                        20504,
+                        0.005495834830000002,
+                        0.006717152209999999
+                    ]
+                ],
+                0.006717152209999999,
+                0.004287691885
+            ]
+        ],
+        [
+            "io_ascii.main.CsvString.time_write",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.main.CsvString.time_write.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        20394,
+                        0.2042960330000001,
+                        0.2176000429999998
+                    ]
+                ],
+                0.2176000429999998,
+                0.2042960330000001
+            ]
+        ],
+        [
+            "table.TimeTable.time_column_make_bool_mask",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeTable.time_column_make_bool_mask.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        28163,
+                        1.455437089e-05,
+                        1.5401947051568468e-05
+                    ]
+                ],
+                1.5401947051568468e-05,
+                1.455437089e-05
+            ]
+        ],
+        [
+            "io_ascii.main.TabString.time_write",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/io_ascii.main.TabString.time_write.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        20391,
+                        0.20311421649999994,
+                        0.21665190800000023
+                    ]
+                ],
+                0.21665190800000023,
+                0.20311421649999994
+            ]
+        ],
+        [
+            "table.TimeTable.time_item_get_colfirst",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/table.TimeTable.time_item_get_colfirst.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        25085,
+                        3.0433094349999998e-06,
+                        3.763286145e-06
+                    ]
+                ],
+                3.4069611037107155e-06,
+                3.0433094349999998e-06
+            ]
+        ],
+        [
+            "coordinates.SkyCoordBenchmarks.time_repr_array",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.11/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/coordinates.SkyCoordBenchmarks.time_repr_array.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.11",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        16159,
+                        0.022410520099999998,
+                        0.0384006131
+                    ],
+                    [
+                        null,
+                        16304,
+                        0.0384006131,
+                        0.046609977099999964
+                    ],
+                    [
+                        null,
+                        23013,
+                        0.04450278539999999,
+                        0.11819127169999995
+                    ],
+                    [
+                        null,
+                        28665,
+                        0.11819127169999995,
+                        0.11995511550000004
+                    ]
+                ],
+                0.11995511550000004,
+                0.022410520099999998
+            ]
+        ],
+        [
+            "units.time_compose_complex",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/units.time_compose_complex.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.14",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        9860,
+                        2.079243188,
+                        2.843481656
+                    ],
+                    [
+                        null,
+                        10416,
+                        2.843481656,
+                        3.0893339139999996
+                    ],
+                    [
+                        null,
+                        10909,
+                        3.0893339139999996,
+                        3.4051733279999996
+                    ],
+                    [
+                        null,
+                        11756,
+                        3.4051733279999996,
+                        4.969001608999999
+                    ],
+                    [
+                        null,
+                        14530,
+                        4.6070022025,
+                        4.734811578
+                    ],
+                    [
+                        null,
+                        17198,
+                        4.734811578,
+                        5.5985764289999995
+                    ],
+                    [
+                        18906,
+                        19032,
+                        5.5985764289999995,
+                        5.926759746
+                    ],
+                    [
+                        null,
+                        21073,
+                        5.733451483,
+                        6.048626436999999
+                    ]
+                ],
+                6.048626436999999,
+                2.079243188
+            ]
+        ],
+        [
+            "units.time_unit_to",
+            "graphs/Cython/arch-x86_64/branch-master/cpu-Intel(R) Celeron(R) CPU N3450 @ 1.10GHz/jinja2/machine-oneesk/matplotlib-2.1/nomkl/numpy-1.14/os-Linux 4.10.0-40-generic/python-3.6/ram-3885480/scipy-1.0/units.time_unit_to.json",
+            {
+                "cpu": "Intel(R) Celeron(R) CPU N3450 @ 1.10GHz",
+                "machine": "oneesk",
+                "numpy": "1.14",
+                "os": "Linux 4.10.0-40-generic",
+                "ram": "3885480"
+            },
+            null,
+            [
+                [
+                    [
+                        null,
+                        10187,
+                        1.227598891037307e-05,
+                        1.29723760661288e-05
+                    ],
+                    [
+                        null,
+                        17403,
+                        1.29723760661288e-05,
+                        1.3324626018889921e-05
+                    ]
+                ],
+                1.3657375488835657e-05,
+                1.227598891037307e-05
+            ]
+        ]
+    ]
+}
