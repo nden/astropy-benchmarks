@@ -65,7 +65,7 @@ class CompoundModelWithUnits:
     def time_million(self):
         r, d = self.model(xx * u.pix, yy * u.pix)
 
-
+'''
 class Compound50:
     def create_models(degree):
         p21 = Polynomial2D(degree)
@@ -85,3 +85,4 @@ class Compound50:
 
     def time_50(self):
         self.model(x1d, y1d)
+'''
