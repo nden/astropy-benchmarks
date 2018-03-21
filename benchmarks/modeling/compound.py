@@ -53,7 +53,7 @@ class CompoundModelWithUnits:
         aff.input_units_equivalencies = {'x': u.pixel_scale(1 * u.arcsec/u.pix),
                                          'y': u.pixel_scale(1 * u.arcsec/u.pix)}
         self.model = (Shift(-10.5 * u.pix) & Shift(-13.2 * u.pix) | aff |
-                      Scale(.01 * u.arcsec) & Scale(.04 * u.deg) | Pix2Sky_TAN() |
+                      Scale(.01) & Scale(.04) | Pix2Sky_TAN() |
                       RotateNative2Celestial(5.6 * u.deg, -72.05 * u.deg, 180 * u.deg))
 
     def time_scalar(self):
@@ -65,8 +65,9 @@ class CompoundModelWithUnits:
     def time_million(self):
         r, d = self.model(xx * u.pix, yy * u.pix)
 
-'''
+
 class Compound50:
+    @staticmethod
     def create_models(degree):
         p21 = Polynomial2D(degree)
         coeffs = np.random.randn(len(p21.param_names))
@@ -80,9 +81,9 @@ class Compound50:
     def setup(self):
         models = []
         for i in range(1, 6):
-            models.append(create_models(degree=i))
+            models.append(self.create_models(degree=i))
         self.model = functools.reduce(lambda x, y: x | y, models)
 
     def time_50(self):
         self.model(x1d, y1d)
-'''
+
